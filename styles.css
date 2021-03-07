@@ -3,6 +3,17 @@ body {
     font-family:Times;
 }
 
+.assignment {
+    display:flex;
+    padding:10px;
+    background: lightgreen
+
+}
+
+.assignment img {
+    width:200px;
+    padding:10px;
+}
 h1{
     color: red;
     text-align:center;
