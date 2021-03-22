@@ -6,15 +6,29 @@ body {
 .assignment {
     display:flex;
     padding:10px;
+    margin:10px;
+
     background: lightgreen
 
 }
 
 .assignment img {
-    width:200px;
-    padding:10px;
+    border: 4px dashed #f25C69
 }
+
 h1{
     color: red;
     text-align:center;
+}
+h1 {
+    color: #5D7f71;
+}
+
+a{
+    text-decoration:none;
+    color:  #FFF;
+}
+
+h1:hover {
+    color:#f25C69
 }
