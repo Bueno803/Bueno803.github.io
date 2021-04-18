@@ -5,15 +5,27 @@ body {
 
 .assignment {
     display:flex;
-    padding:10px;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width: 22%;
+    padding: 10px;
     margin:10px;
-
-    background: lightgreen
-
+    padding:20px 10px;
+    background: lightgreen;
+    border-radius:5px;
 }
 
 .assignment img {
-    border: 4px dashed #f25C69
+    width:200px;
+    margin:10px;
+    border: 4px dashed #f25C69;
+    display:black;
+}
+
+.assignment img:hover {
+    border:4px dashed #F25C69;
 }
 
 h1{
